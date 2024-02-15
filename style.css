@@ -62,7 +62,7 @@ header, footer, .hero-section {
     font-weight: 900;
 
 }
-.hero-content p{
+.hero-content p, footer, header a{
     font-size: 18px;
     color: #e5e7eb;
 }
