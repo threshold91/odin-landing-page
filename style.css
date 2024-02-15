@@ -37,7 +37,64 @@ footer{
     display: flex;
 }
 
+.quote-section{
+    display: flex;
+    justify-content: center;
+}
+
 .action-section{
     display: flex;
     justify-content: center;
+}
+
+/* styling */
+header, footer, .hero-section {
+    background-color: #1f2937;
+}
+
+.header-logo-text{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-content h1{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.hero-content p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up-1{
+    background-color: #3882f6;
+    border-style: none;
+    color:  white;
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+}
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.action-content{
+    background-color: #3882f6;
+}
+.action-content .text-content h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.sign-up-2{
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: white;
+    color: white;
 }
