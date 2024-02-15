@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* flex box layout */
+.body-wrapper{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+}
+.info-content{
+    display: flex;
+}
+
+.action-section{
+    display: flex;
+    justify-content: center;
+}
