@@ -3,6 +3,10 @@
     padding: 0;
 }
 /* flex box layout */
+
+body{
+    font-family: sans-serif;
+}
 .body-wrapper{
     display: flex;
     flex-direction: column;
@@ -12,6 +16,17 @@
 header{
     display: flex;
     justify-content: space-around;
+    padding: 40px 0 40px 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav li{
+    margin-right: 20px;
 }
 
 footer{
@@ -26,7 +41,7 @@ footer{
 
 .hero-section{
     display: flex;
-    justify-content: space-around;
+    
 }
 
 .info-section{
@@ -48,6 +63,10 @@ footer{
 }
 
 /* styling */
+a{
+    text-decoration: none;
+}
+
 header, footer, .hero-section {
     background-color: #1f2937;
 }
