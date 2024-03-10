@@ -41,7 +41,30 @@ footer{
 
 .hero-section{
     display: flex;
-    
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 175px;
+
+}
+
+.hero-content, .hero-image{
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-image {
+    background-color: grey; /* Sets the background color to grey */
+    display: flex; /* Optional: If you need to align content inside the div */
+    align-items: center; /* Optional: Vertically center content inside the div */
+    justify-content: center; /* Optional: Horizontally center content inside the div */
+    /* Add padding or a specific height/width if necessary */
+    padding: 40px; /* Example padding */
+    height: 100%;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
 }
 
 .info-section{
@@ -79,6 +102,7 @@ header, footer, .hero-section {
 .hero-content h1{
     font-size: 48px;
     font-weight: 900;
+    color: white;
 
 }
 .hero-content p, footer, header a{
@@ -86,10 +110,17 @@ header, footer, .hero-section {
     color: #e5e7eb;
 }
 
-.sign-up-1{
+.hero-image p{
+    color: white;
+}
+
+.sign-up-1, .sign-up-2{
     background-color: #3882f6;
     border-style: none;
     color:  white;
+    border-radius: 8px;
+    padding: 5px;
+    width: 100px;
 }
 
 .quote-section{
@@ -112,8 +143,7 @@ header, footer, .hero-section {
 }
 
 .sign-up-2{
-    background-color: #3882f6;
     border-style: solid;
     border-color: white;
-    color: white;
+    
 }
