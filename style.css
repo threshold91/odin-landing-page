@@ -189,3 +189,11 @@ header, footer, .hero-section {
     border-color: white;
     
 }
+
+footer{
+    padding: 30px 100px;
+}
+
+footer p{
+    font-weight: lighter;
+}
