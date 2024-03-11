@@ -72,12 +72,12 @@ footer{
 .info-section{
     display: flex;
     flex-direction: column;
-    padding: 40px 100px 20px 100px;
+    padding: 40px 100px 80px 100px;
 }
 
 .info-content{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -143,15 +143,26 @@ header, footer, .hero-section {
 }
 
 .content-card{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .content-image{
     height: 150px;
-    width: 200px;
+    width: 150px;
     border-style: solid;
     border-radius: 8px;
     border-color: #3882f6;
+}
+
+.content-card p{
+    font-weight: lighter;
+    color: #1f2937;
+    margin: 5px 20px;
+    padding: 5px 20px;
 }
 
 .quote-section{
