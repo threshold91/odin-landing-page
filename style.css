@@ -83,12 +83,22 @@ footer{
 
 .quote-section{
     display: flex;
+    padding: 40px 160px;
     justify-content: center;
 }
 
 .action-section{
     display: flex;
+    align-items: center;
     justify-content: center;
+    margin: 80px 100px;
+}
+
+.action-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
 }
 
 /* styling */
@@ -167,21 +177,33 @@ header, footer, .hero-section {
 
 .quote-section{
     background-color: #e5e7eb;
-}
+}    
 .quote-text{
+    text-align: left;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+    margin: 40px 40px 0px 40px;
 }
 
+.quote-attribution{
+    text-align: right;
+    margin: 0px 80px 40px 40px;
+}
 .action-content{
     background-color: #3882f6;
+    padding: 50px 150px;
+    border-radius: 8px;
 }
 .action-content .text-content h3{
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937;
+    
+}
+
+.action-content {
+    color: #e5e7eb;
 }
 
 .sign-up-2{
